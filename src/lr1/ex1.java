@@ -1,10 +1,11 @@
 package lr1;
 
-import java.util.Scanner;
-
 public class ex1 {
-    public static void Start() {
-        var in = new Scanner(System.in);
+    public static void main(String[] args) {
+        Start();
+    }
+    static void Start() {
+        var in = new java.util.Scanner(System.in);
         var out = System.out;
 
         out.println("Лаб. №1, задание №1");
