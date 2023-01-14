@@ -4,8 +4,6 @@ import Instrumens.StringHandler;
 
 import static java.lang.System.in;
 import static java.lang.System.out;
-
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ex4 {
@@ -25,7 +23,7 @@ public class ex4 {
         int numberOfDays;
         try {
             numberOfDays = scan.nextInt();
-        } catch (InputMismatchException e) {
+        } catch (java.util.InputMismatchException e) {
             out.println("Введенное значение не является числом!");
             return;
         }

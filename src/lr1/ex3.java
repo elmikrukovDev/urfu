@@ -2,8 +2,6 @@ package lr1;
 
 import static java.lang.System.in;
 import static java.lang.System.out;
-
-import java.util.InputMismatchException;
 import java.util.Scanner;
 import Instrumens.StringHandler;
 
@@ -25,7 +23,7 @@ public class ex3 {
         int dayNumber;
         try {
             dayNumber = scan.nextInt();
-        } catch (InputMismatchException e) {
+        } catch (java.util.InputMismatchException e) {
             out.println("Введенное значение не является числом!");
             return;
         }
