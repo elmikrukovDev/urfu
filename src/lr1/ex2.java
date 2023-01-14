@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 public class ex2 {
     public static void main(String[] args) {
-        Start();
+        start();
     }
 
-    static void Start() {
+    static void start() {
         var scan = new Scanner(in);
 
         out.println("Лаб. №1, задание №2");
