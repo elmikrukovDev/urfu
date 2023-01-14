@@ -16,7 +16,7 @@ public class ex6 {
     static void start() {
         var scan = new Scanner(in);
 
-        out.println("Лаб. №1, задание №5");
+        out.println("Лаб. №1, задание №6");
 
         out.println("Введите ваше имя: ");
         var userName = new StringBuilder(scan.nextLine());
