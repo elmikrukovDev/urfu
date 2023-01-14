@@ -1,9 +1,9 @@
 package lr1;
 
-        import static java.lang.System.in;
-        import static java.lang.System.out;
+import static java.lang.System.in;
+import static java.lang.System.out;
 
-        import java.util.Scanner;
+import java.util.Scanner;
 
 public class ex9 {
     public static void main(String[] args) {
