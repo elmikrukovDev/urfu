@@ -1,9 +1,10 @@
 package lr1;
 
-import static java.lang.System.in;
-import static java.lang.System.out;
+        import static java.lang.System.in;
+        import static java.lang.System.out;
 
-import java.util.Scanner;
+        import java.time.LocalDateTime;
+        import java.util.Scanner;
 
 public class ex7 {
     public static void main(String[] args) {
@@ -13,19 +14,18 @@ public class ex7 {
     static void start() {
         var scan = new Scanner(in);
 
-        out.println("Лаб. №1, задание №8");
+        out.println("Лаб. №1, задание №7");
 
-        double firstSummand, secondSummand;
+        out.println("Введите ваш возраст: ");
+        int userAge;
         try {
-            out.println("Введите 1-е слагаемое: ");
-            firstSummand = scan.nextDouble();
-            out.println("Введите 2-е слагаемое: ");
-            secondSummand = scan.nextDouble();
+            userAge = scan.nextInt();
         } catch (java.util.InputMismatchException e) {
             out.println("Введенное значение не является числом!");
             return;
         }
-        double result = firstSummand + secondSummand;
-        out.printf("Результат: %f", result);
+        int yearOfBirthday = LocalDateTime.now().getYear() - userAge;
+        out.printf("Ваш год рождения: %d", yearOfBirthday);
     }
 }
+
