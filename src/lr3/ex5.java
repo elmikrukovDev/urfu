@@ -15,9 +15,7 @@ public class ex5 {
         out.println("Лабораторная работа №3 Задание 5");
         out.print("Введите количество чисел в сумме: ");
         int count = scan.nextInt();
-        int currentCount = 0;
-        int number = 0;
-        int result = 0;
+        int currentCount = 0, number = 0, result = 0;
         out.print("При сложении чисел: ");
         while (currentCount != count) {
             if (number % 5 == 2 && number % 3 == 1) {
