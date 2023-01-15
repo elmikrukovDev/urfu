@@ -2,8 +2,6 @@ package lr8.ex4;
 
 import java.io.*;
 
-import static java.lang.System.out;
-
 public class FSWorker {
     static void writeFloatsToFile(String path, float[] floats) throws IOException {
         DataOutputStream wr = null;
