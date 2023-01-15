@@ -21,8 +21,10 @@ public class ex8 {
                 arr[i++] = currentLetter;
         out.print("Array - ");
         for (char item: arr)
-            if (item != 0)
-                out.print(item + " ");
+            out.print(item + " ");
+        out.print("\nArray - ");
+        for (int i = arrlength - 1; i >= 0; i--)
+            out.print(arr[i] + " ");
     }
 
     private static boolean isVowel(char character) {
