@@ -8,7 +8,7 @@ public class ex4 {
     }
 
     private static void start() {
-        out.println("Лабораторная работа №4 Задание 2");
+        out.println("Лабораторная работа №4 Задание 4");
         final int h = 5;
         final int w = 5;
         char[][] triangle = new char[h][w];
