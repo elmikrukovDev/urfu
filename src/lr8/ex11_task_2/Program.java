@@ -34,7 +34,7 @@ public class Program {
 
         var fileInfo = FSWorker.readFileToArray("C:\\tmp\\f1.txt");
         FSWorker.writeParamsToFile("C:\\tmp\\f2.txt", false, fileInfo.get(1));
-        var subFileInfo = fileInfo.subList(2, fileInfo.size() - 1);
+        var subFileInfo = fileInfo.subList(2, fileInfo.size());
         for (String line: subFileInfo) {
             try {
                 var number = Double.valueOf(line);
