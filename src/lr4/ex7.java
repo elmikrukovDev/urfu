@@ -5,10 +5,6 @@ import java.util.SplittableRandom;
 import static java.lang.System.out;
 
 public class ex7 {
-    private interface IteratorOperation {
-        public int calc(int iter);
-    }
-
     public static void main(String[] args) {
         start();
     }
