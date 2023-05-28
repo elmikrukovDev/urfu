@@ -1,6 +1,5 @@
 package lr6.ex1;
 
-import org.jetbrains.annotations.NotNull;
 import static java.lang.System.out;
 
 public class StringCharWorker {
@@ -12,7 +11,7 @@ public class StringCharWorker {
     public void setValue(String val) {
         string1 = val;
     }
-    public void setValue(@NotNull char[] val) throws IllegalArgumentException {
+    public void setValue(char[] val) throws IllegalArgumentException {
         if (val.length == 0)
             throw new IllegalArgumentException("не может быть пустой массив");
         else if (val.length == 1)

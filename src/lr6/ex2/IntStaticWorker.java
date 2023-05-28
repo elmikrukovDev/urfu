@@ -1,7 +1,5 @@
 package lr6.ex2;
 
-import org.jetbrains.annotations.NotNull;
-
 import static java.lang.System.out;
 
 public class IntStaticWorker {

@@ -1,9 +1,7 @@
 package lr6.ex3;
 
-import org.jetbrains.annotations.NotNull;
-
 public class IntStaticWorker {
-    public static int getMin(@NotNull int[] vals) {
+    public static int getMin(int[] vals) {
         int min = 0;
         for (int item: vals)
             if (item < min)
@@ -11,7 +9,7 @@ public class IntStaticWorker {
         return min;
     }
 
-    public static int getMax(@NotNull int[] vals) {
+    public static int getMax(int[] vals) {
         int max = 0;
         for (int item: vals)
             if (item > max)
@@ -19,7 +17,7 @@ public class IntStaticWorker {
         return max;
     }
 
-    public static int getMiddle(@NotNull int ...vals) {
+    public static int getMiddle(int ...vals) {
         int middle = 0;
         for (int item: vals)
             middle += item;
