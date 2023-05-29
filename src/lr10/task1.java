@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static java.lang.System.out;
 import static java.lang.System.in;
 
-public class task {
+public class task1 {
     public static void main(String[] args) {
         try {
             var scan = new Scanner(in);
